@@ -7,23 +7,29 @@ html {
 }
 
 body {
+    background: url(../images/forestwall.jpg);
     height: 100%; 
     margin: 0; 
     display: flex; 
     flex-direction: column;
-}
-
-.start-container {
-display: flex; 
-
-
+    align-items: center;
 }
 
 .start-information {
-    display: flex;
+    color: #fff;
+    font-size: 1.5em;
+
 }
 
+h2 {
+    text-align: center;
+    color: #fff; 
+    font-size: 1.5em;
+}
+
+
 a {
-    color: #050505;
+    color: #fff;
     text-decoration: none;
+    text-align: center;
 }
